@@ -16,7 +16,7 @@ export default function Home() {
               <span className="text-gray-900">you buy</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
-              FitMatch Reflect goes beyond recommendations. Explore trade-offs, question assumptions, and strengthen your critical thinking about everyday consumer choices.
+              Deinfluence Reflect goes beyond recommendations. Explore trade-offs, question assumptions, and strengthen your critical thinking about everyday consumer choices.
             </p>
             <div className="flex gap-3 justify-center pt-4">
               <button className="btn-primary">Get Started</button>

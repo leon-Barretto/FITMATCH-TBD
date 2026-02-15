@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import IntelligentResults from './IntelligentResults';
+import IntelligentResultsV2 from './IntelligentResultsV2';
 
 export default function IntelligentDecisionFlow() {
   const [inputs, setInputs] = useState({
@@ -294,7 +294,7 @@ export default function IntelligentDecisionFlow() {
 
       {/* Results */}
       {results && (
-        <IntelligentResults data={results} thinking={thinking} />
+        <IntelligentResultsV2 data={results} thinking={thinking} />
       )}
     </section>
   );

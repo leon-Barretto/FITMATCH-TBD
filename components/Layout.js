@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         <div className="max-w-6xl mx-auto px-6 py-8">
           <div className="grid grid-cols-4 gap-8 text-sm text-gray-600">
             <div>
-              <div className="font-semibold text-gray-900 mb-3">FitMatch</div>
+              <div className="font-semibold text-gray-900 mb-3">Deinfluence</div>
               <p className="text-xs">Decision support for thoughtful consumers</p>
             </div>
             <div>
@@ -39,7 +39,7 @@ export default function Layout({ children }) {
             </div>
           </div>
           <div className="border-t border-gray-200 mt-8 pt-8 flex items-center justify-between text-xs text-gray-500">
-            <div>© {new Date().getFullYear()} FitMatch. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} Deinfluence. All rights reserved.</div>
             <div className="flex gap-4">
               <a href="#" className="hover:text-gray-900">Twitter</a>
               <a href="#" className="hover:text-gray-900">GitHub</a>

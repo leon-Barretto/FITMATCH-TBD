@@ -10,7 +10,7 @@ export default function Home() {
           <div className="text-center space-y-4 mb-12">
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
               <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                Find Dupes
+                Get Help
               </span>
               <br />
               <span className="text-gray-900">with AI</span>
