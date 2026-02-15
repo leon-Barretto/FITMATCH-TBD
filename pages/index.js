@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import DecisionFlowEnhanced from '../components/DecisionFlowEnhanced';
+import IntelligentDecisionFlow from '../components/IntelligentDecisionFlow';
 
 export default function Home() {
   return (
@@ -10,38 +10,38 @@ export default function Home() {
           <div className="text-center space-y-4 mb-12">
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
               <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                Think before
+                Find Dupes
               </span>
               <br />
-              <span className="text-gray-900">you buy</span>
+              <span className="text-gray-900">with AI</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
-              FitMatch Reflect goes beyond recommendations. Explore trade-offs, question assumptions, and strengthen your critical thinking about everyday consumer choices.
+              Our AI detects fake reviews, finds cheaper dupes, and gives you honest advice. Stop paying for influencer marketing.
             </p>
             <div className="flex gap-3 justify-center pt-4">
-              <button className="btn-primary">Get Started</button>
+              <a href="#flow" className="btn-primary">Try It Now</a>
               <button className="btn-secondary">Learn More</button>
             </div>
           </div>
         </section>
 
-        {/* Enhanced Features Showcase */}
+        {/* Features Grid */}
         <section className="grid md:grid-cols-3 gap-6">
           {[
             { 
-              icon: '🎯', 
-              title: 'Structured Analysis', 
-              desc: 'Break down decisions into context, body proportions, budget, and personal values.'
+              icon: '🔍', 
+              title: 'Detects Fake Reviews', 
+              desc: 'AI spots #ad posts, suspicious patterns, and sponsored content to show you the truth.'
             },
             { 
-              icon: '⚖️', 
-              title: 'Trade-off Mapping', 
-              desc: 'Understand competing priorities and how different factors influence your choice.'
+              icon: '💰', 
+              title: 'Finds Real Dupes', 
+              desc: 'Search across Amazon, SHEIN, Fashion Nova for 90%+ similar items at lower prices.'
             },
             { 
               icon: '🧠', 
-              title: 'Critical Reflection', 
-              desc: 'Deepen your thinking with guided prompts that challenge assumptions and biases.'
+              title: 'Smart Advice', 
+              desc: 'Get honest recommendations based on trust scores, body type match, and your values.'
             }
           ].map((item, i) => (
             <div 
@@ -56,38 +56,11 @@ export default function Home() {
           ))}
         </section>
 
-        {/* NEW: Enhanced Features Banner */}
-        <section className="bg-gradient-to-r from-purple-100 via-indigo-100 to-blue-100 rounded-2xl p-8 border border-indigo-200">
-          <div className="text-center space-y-4">
-            <h3 className="text-2xl font-bold text-gray-900">✨ Enhanced Mode Available</h3>
-            <p className="text-gray-700 max-w-2xl mx-auto">
-              Upload an image or paste a URL to unlock powerful features:
-            </p>
-            <div className="grid md:grid-cols-3 gap-4 mt-6">
-              <div className="bg-white rounded-lg p-4 shadow-sm">
-                <div className="text-3xl mb-2">💰</div>
-                <h4 className="font-semibold text-gray-900 text-sm mb-1">Price Alternatives</h4>
-                <p className="text-xs text-gray-600">Budget, mid-range & premium options</p>
-              </div>
-              <div className="bg-white rounded-lg p-4 shadow-sm">
-                <div className="text-3xl mb-2">📱</div>
-                <h4 className="font-semibold text-gray-900 text-sm mb-1">Social Media Insights</h4>
-                <p className="text-xs text-gray-600">TikTok, Instagram & YouTube content</p>
-              </div>
-              <div className="bg-white rounded-lg p-4 shadow-sm">
-                <div className="text-3xl mb-2">⭐</div>
-                <h4 className="font-semibold text-gray-900 text-sm mb-1">Customer Reviews</h4>
-                <p className="text-xs text-gray-600">Real feedback with pros & cons</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Divider */}
         <div className="border-t border-gray-200" />
 
-        {/* Main Decision Flow - NOW USING ENHANCED VERSION */}
-        <DecisionFlowEnhanced />
+        {/* Main Intelligent Decision Flow */}
+        <IntelligentDecisionFlow />
       </div>
     </Layout>
   );
