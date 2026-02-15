@@ -18,21 +18,30 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+🧠 What FitMatch Does
+- FitMatch walks users through a structured reasoning flow:
+- Extracts product claims
+- Identifies missing evidence
+- Highlights contradictions
+- Flags potential bias or marketing tactics
+- Prompts reflection on values, budget, and social influence
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The goal: help users think critically instead of blindly following trends.
 
-## AI (for Hacatron)
+🛠 Tech Stack
+Next.js (App Router)
+TypeScript
+Tailwind CSS
+Vercel deployment
 
-To learn more about Next.js, take a look at the following resources:
+🎯 Project Goal
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+FitMatch redefines recommendation systems by shifting from algorithmic persuasion to user reasoning.
+Instead of:
+“Here’s what you should wear”
+It asks:
+“Why do you want this, and does it actually make sense?”
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployed on Vercel
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
