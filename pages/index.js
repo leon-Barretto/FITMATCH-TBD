@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import DecisionFlow from '../components/DecisionFlow';
+import DecisionFlowEnhanced from '../components/DecisionFlowEnhanced';
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Features Grid */}
+        {/* Enhanced Features Showcase */}
         <section className="grid md:grid-cols-3 gap-6">
           {[
             { 
@@ -56,11 +56,38 @@ export default function Home() {
           ))}
         </section>
 
+        {/* NEW: Enhanced Features Banner */}
+        <section className="bg-gradient-to-r from-purple-100 via-indigo-100 to-blue-100 rounded-2xl p-8 border border-indigo-200">
+          <div className="text-center space-y-4">
+            <h3 className="text-2xl font-bold text-gray-900">✨ Enhanced Mode Available</h3>
+            <p className="text-gray-700 max-w-2xl mx-auto">
+              Upload an image or paste a URL to unlock powerful features:
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mt-6">
+              <div className="bg-white rounded-lg p-4 shadow-sm">
+                <div className="text-3xl mb-2">💰</div>
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Price Alternatives</h4>
+                <p className="text-xs text-gray-600">Budget, mid-range & premium options</p>
+              </div>
+              <div className="bg-white rounded-lg p-4 shadow-sm">
+                <div className="text-3xl mb-2">📱</div>
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Social Media Insights</h4>
+                <p className="text-xs text-gray-600">TikTok, Instagram & YouTube content</p>
+              </div>
+              <div className="bg-white rounded-lg p-4 shadow-sm">
+                <div className="text-3xl mb-2">⭐</div>
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Customer Reviews</h4>
+                <p className="text-xs text-gray-600">Real feedback with pros & cons</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Divider */}
         <div className="border-t border-gray-200" />
 
-        {/* Main Decision Flow */}
-        <DecisionFlow />
+        {/* Main Decision Flow - NOW USING ENHANCED VERSION */}
+        <DecisionFlowEnhanced />
       </div>
     </Layout>
   );
